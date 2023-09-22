@@ -7,9 +7,12 @@ import router from './Router/Router.jsx'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <NextUIProvider>
-    <React.StrictMode>
+    <div className='bg-[#f7f7f7]'>
+      <React.StrictMode>
     <RouterProvider router={router} />
   </React.StrictMode>
+    </div>
+    
   </NextUIProvider>
   
 )
